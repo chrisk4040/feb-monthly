@@ -1,0 +1,19 @@
+.border {
+    border: 6px solid #3C3B6E; /* Keep the blue color for the image border */
+}
+
+.image-border {
+    border: 10px solid #3C3B6E; /* Keep the blue color for the image border */
+}
+
+/* New CSS class for carousel images */
+.carousel-image {
+    height: 400px; /* Set a uniform height for carousel images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+/* Removed custom navbar styles to use Bootstrap styling */
+
+.navbar-toggler .navbar-toggler-icon {
+    background-color: transparent; /* Ensure the toggler icon is visible */
+}
